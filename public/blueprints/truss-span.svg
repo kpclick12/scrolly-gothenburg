@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Öppet fackverk</title>
+  <desc id="desc">En närbild av ett öppet stålfackverk med noder, diagonaler och konstruktionsmått.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M32 48h256M32 124h256"/>
+      <path d="M32 48v76M64 48v76M96 48v76M128 48v76M160 48v76M192 48v76M224 48v76M256 48v76M288 48v76" stroke-opacity=".62"/>
+      <path d="m32 48 32 76 32-76 32 76 32-76 32 76 32-76 32 76 32-76 32 76"/>
+      <path d="m32 124 32-76 32 76 32-76 32 76 32-76 32 76 32-76 32 76" stroke-opacity=".55"/>
+    </g>
+    <g stroke-width="1.2">
+      <g fill="#0d5e78" fill-opacity=".13">
+        <circle cx="32" cy="48" r="4"/><circle cx="64" cy="124" r="4"/><circle cx="96" cy="48" r="4"/><circle cx="128" cy="124" r="4"/><circle cx="160" cy="48" r="4"/><circle cx="192" cy="124" r="4"/><circle cx="224" cy="48" r="4"/><circle cx="256" cy="124" r="4"/><circle cx="288" cy="48" r="4"/>
+      </g>
+      <path d="M32 33v-13M288 33v-13M32 25h256" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M32 29v-9M288 29v-9"/>
+      <path d="M22 48v76M16 48H8M16 124H8M8 48v76" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M41 48h-9M41 124h-9"/>
+      <path d="M32 139h256" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M54 146h212" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M54 140v12M266 140v12"/>
+      <path d="M112 48v76M208 48v76" stroke-dasharray="1 5" stroke-opacity=".45"/>
+      <path d="M142 81h36M146 86h28M151 91h18" stroke-opacity=".55"/>
+      <path d="M41 158h55M224 158h55" stroke-opacity=".4"/>
+    </g>
+  </g>
+</svg>

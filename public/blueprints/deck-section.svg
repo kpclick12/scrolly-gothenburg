@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Fartygsdäck i sektion</title>
+  <desc id="desc">En teknisk sektion genom ett fartygsdäck med däcksbalk, spant, stringers och köl.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M43 47h234v15q-5 28-34 50l-29 34H106l-29-34Q48 90 43 62z"/>
+      <path d="M49 48q111-17 222 0M54 63q106 21 212 0"/>
+      <path d="M73 82q87 25 174 0M88 107q72 22 144 0M107 134q53 16 106 0"/>
+      <path d="M106 47v19M214 47v19M160 48v102"/>
+      <path d="M102 66h116M111 107h98M124 134h72"/>
+      <path d="M106 146h108" stroke-width="3"/>
+      <path d="M126 47v19h68V47"/>
+    </g>
+    <g stroke-width="1.15">
+      <path d="M60 72q100 22 200 0M77 94q83 23 166 0M99 121q61 19 122 0" stroke-dasharray="4 4" stroke-opacity=".5"/>
+      <path d="M81 82 71 95M108 88l-7 15M136 93l-3 14M184 93l3 14M212 88l7 15M239 82l10 13" stroke-opacity=".7"/>
+      <path d="M43 154h234" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M43 35v-13M277 35v-13M43 27h234" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M43 31v-8M277 31v-8"/>
+      <path d="M29 47v103M36 47h-9M36 150h-9M29 98h8" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M29 96h27M160 48v102" stroke-dasharray="1 6" stroke-opacity=".45"/>
+      <path d="M124 40v-8M196 40v-8M124 34h72" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <circle cx="106" cy="66" r="2"/><circle cx="214" cy="66" r="2"/><circle cx="160" cy="146" r="2"/>
+    </g>
+  </g>
+</svg>

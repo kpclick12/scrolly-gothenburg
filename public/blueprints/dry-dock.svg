@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Torrdocka i genomskärning</title>
+  <desc id="desc">En torrdocka med fartyg på kölblock, dockväggar och serviceplattformar.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M43 40v87l27 24h180l27-24V40"/>
+      <path d="M43 40h42M235 40h42M70 151h180"/>
+      <path d="M76 127h168M89 113h142M103 100h104"/>
+      <path d="M105 87h110l-15 29H120z"/>
+      <path d="M120 116h80l-12 11h-56z"/>
+      <path d="M104 87h112" stroke-opacity=".6"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M57 53h43M57 62h35M220 53h43M228 62h35" stroke-opacity=".5"/>
+      <path d="M61 77h37M222 77h37M66 91h30M224 91h30" stroke-dasharray="4 4" stroke-opacity=".45"/>
+      <path d="M122 116v12M138 116v12M182 116v12M198 116v12" stroke-opacity=".5"/>
+      <circle cx="128" cy="125" r="3"/><circle cx="160" cy="125" r="3"/><circle cx="192" cy="125" r="3"/>
+      <path d="M32 40v111M26 40h-8M26 151h-8M18 40v111" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M43 166h234M43 160v12M277 160v12" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M103 78V62M215 78V62M103 65h112" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M103 69v-8M215 69v-8"/>
+      <path d="M70 151 43 127M250 151l27-24" stroke-dasharray="2 4" stroke-opacity=".55"/>
+      <path d="M55 33h210" stroke-dasharray="1 6" stroke-opacity=".35"/>
+      <path d="M46 130h33M241 130h33"/>
+    </g>
+  </g>
+</svg>

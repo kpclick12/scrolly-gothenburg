@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Brospann under lyft</title>
+  <desc id="desc">Ett öppet brospann hänger i slingor ovanför en enkel pråmställning och vattenlinje.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M43 54h234M49 86h222"/>
+      <path d="M49 54v32M78 54v32M107 54v32M136 54v32M165 54v32M194 54v32M223 54v32M252 54v32" stroke-opacity=".7"/>
+      <path d="m49 54 29 32 29-32 29 32 29-32 29 32 29-32 29 32"/>
+      <path d="M88 24h144"/>
+      <path d="M95 25 117 54M225 25 203 54"/>
+      <path d="M95 25v-8M225 25v-8M92 18h6M222 18h6"/>
+      <path d="M83 112h154l22 31H61z"/>
+      <path d="M83 112h154M96 112l-17 31M224 112l17 31M118 112l-10 31M202 112l10 31"/>
+      <path d="M61 143h198"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M63 62h198M63 78h198" stroke-dasharray="3 4" stroke-opacity=".42"/>
+      <circle cx="49" cy="54" r="3"/><circle cx="271" cy="86" r="3"/><circle cx="117" cy="54" r="2"/><circle cx="203" cy="54" r="2"/>
+      <path d="M55 158h210" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M55 164h210" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M55 157v12M265 157v12"/>
+      <path d="M34 54v89M28 54h-8M28 143h-8M20 54v89" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M88 30v-12M232 30v-12M88 24h144" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M102 107h116M102 103v9M218 103v9" stroke-opacity=".55"/>
+      <path d="M76 151q84 11 168 0" stroke-dasharray="4 5" stroke-opacity=".52"/>
+      <path d="M46 169h228" stroke-opacity=".32"/>
+    </g>
+  </g>
+</svg>

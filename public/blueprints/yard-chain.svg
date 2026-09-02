@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Sammanhängande varvsprocess</title>
+  <desc id="desc">En sammanhängande teknisk linje binder ihop plåt, verkstad, stapelbädd, utrustningskaj och fartyg.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <path d="M28 90C58 66 77 113 105 90s47-23 73 0 48 23 72 0 36-23 42 0" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g stroke-width="1.4">
+      <circle cx="52" cy="90" r="7" fill="#0d5e78" fill-opacity=".11"/>
+      <circle cx="105" cy="90" r="7" fill="#0d5e78" fill-opacity=".11"/>
+      <circle cx="160" cy="90" r="7" fill="#0d5e78" fill-opacity=".11"/>
+      <circle cx="215" cy="90" r="7" fill="#0d5e78" fill-opacity=".11"/>
+      <circle cx="268" cy="90" r="7" fill="#0d5e78" fill-opacity=".11"/>
+      <path d="M52 83V52M105 97v36M160 83V50M215 97v34M268 83V47" stroke-dasharray="2 4" stroke-opacity=".55"/>
+    </g>
+    <g stroke-width="2">
+      <path d="M35 45h34v15H35zM39 60v17M65 60v17M35 77h34"/>
+      <path d="M87 112h36v23H87zM82 135h46M93 112v-8M117 112v-8M87 124h36"/>
+      <path d="M139 50h42v8h-42zM139 58v23M151 58v23M163 58v23M175 58v23M139 81h42"/>
+      <path d="M194 132h42M198 132l10-28h20l10 28M201 120h32M205 109h24"/>
+      <path d="M249 56h37v25h-37zM249 81l-8 24h52l-8-24M258 56V45h19v11M267 45V36h9v9"/>
+      <path d="M254 68h27M260 56v25M275 56v25" stroke-opacity=".58"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M28 151h264" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M28 158h264" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M28 153v10M292 153v10"/>
+      <path d="M52 31v-9M268 31v-9M52 25h216" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M75 90h14M121 90h18M181 90h26M223 90h38" stroke-dasharray="1 4" stroke-opacity=".5"/>
+      <circle cx="52" cy="90" r="2"/><circle cx="105" cy="90" r="2"/><circle cx="160" cy="90" r="2"/><circle cx="215" cy="90" r="2"/><circle cx="268" cy="90" r="2"/>
+      <path d="M39 40h26M93 102h24M145 42h30M204 141h22M255 28h26" stroke-opacity=".5"/>
+    </g>
+  </g>
+</svg>

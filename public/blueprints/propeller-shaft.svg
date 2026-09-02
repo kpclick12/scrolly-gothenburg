@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Akter, propeller och axel</title>
+  <desc id="desc">En teknisk sidovy av ett fartygs akter med propeller, propelleraxel, lager och måttlinjer.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M39 61h45l18 18v24l-18 18H39"/>
+      <path d="M47 70h34l12 12v18l-12 12H47" stroke-opacity=".7"/>
+      <path d="M94 80h153v22H94z"/>
+      <path d="M94 86h153M94 96h153" stroke-opacity=".55"/>
+      <path d="M113 80v22M169 80v22M224 80v22"/>
+      <path d="M113 73v36M169 73v36" stroke-opacity=".7"/>
+      <path d="M212 102q-9 16-8 28h24q-4-16-12-28"/>
+      <path d="M247 91h10"/>
+      <circle cx="265" cy="91" r="9"/>
+      <path d="M258 82C250 70 249 51 257 36c8 15 8 34 3 47"/>
+      <path d="M273 91c14-7 31-4 39 7-15 8-31 5-43-1"/>
+      <path d="M258 100c9 13 10 32 3 46-9-14-9-33-3-46"/>
+      <path d="M249 91c-14 8-31 6-42-4 14-8 31-6 43-1"/>
+    </g>
+    <g stroke-width="1.15">
+      <path d="M39 91h245" stroke-dasharray="4 4" stroke-opacity=".5"/>
+      <path d="M57 52h189" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M102 69h128" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M102 73v-9M230 73v-9"/>
+      <path d="M294 36v110M287 36h8M287 146h8M294 91h-8" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M39 156h270" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M39 149v12M309 149v12"/>
+      <path d="M79 61v-9M84 61v-9M79 56h5"/>
+      <path d="M105 111h122" stroke-dasharray="1 6" stroke-opacity=".45"/>
+      <circle cx="113" cy="91" r="3"/><circle cx="169" cy="91" r="3"/><circle cx="224" cy="91" r="3"/>
+      <path d="M282 63h18M282 119h18" stroke-opacity=".6"/>
+    </g>
+  </g>
+</svg>

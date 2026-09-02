@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Fartygsprofil</title>
+  <desc id="desc">En lång fartygsprofil med skrovlinje, överbyggnad och lastlinjer.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M31 108q15 27 52 31h171q25-4 35-31l-12-9H52z"/>
+      <path d="M55 99h204l11 9H42z"/>
+      <path d="M87 99V69h42v30M145 99V55h58v44M214 99V76h27v23"/>
+      <path d="M97 69V56h19v13M162 55V41h23v14"/>
+      <path d="M63 91h16M91 91h26M153 87h42M222 91h14"/>
+      <path d="M59 121h219M76 132h183" stroke-opacity=".6"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M47 112q111 19 229 0M61 123q106 17 207 0" stroke-dasharray="4 4" stroke-opacity=".45"/>
+      <path d="M73 108v24M97 108v26M121 108v26M145 108v26M169 108v26M193 108v26M217 108v26M241 108v24" stroke-opacity=".38"/>
+      <path d="M31 147h258" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M31 154v12M289 154v12M31 160h258" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M43 49v79M37 49h-8M37 128h-8M29 49v79" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M45 37h214" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M55 44v-9M249 44v-9"/>
+      <circle cx="69" cy="109" r="2"/><circle cx="255" cy="109" r="2"/><circle cx="157" cy="109" r="2"/>
+      <path d="M35 75h32M35 82h23M257 69h32M265 76h24" stroke-opacity=".5"/>
+    </g>
+  </g>
+</svg>

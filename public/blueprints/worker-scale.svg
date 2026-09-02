@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Människor som skala</title>
+  <desc id="desc">Ett vertikalsnitt med fackverk, träställning och små neutrala människosilhuetter som visar skala.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M68 39h184M78 67h164"/>
+      <path d="M68 39v28M98 39v28M128 39v28M158 39v28M188 39v28M218 39v28M252 39v28" stroke-opacity=".68"/>
+      <path d="m68 39 30 28 30-28 30 28 30-28 30 28 34-28"/>
+      <path d="M80 83h160M67 113h186M55 144h210"/>
+      <path d="M80 83v61M112 83v61M144 83v61M176 83v61M208 83v61M240 83v61" stroke-opacity=".58"/>
+      <path d="m80 83 32 30 32-30 32 30 32-30 32 30 32-30" stroke-opacity=".7"/>
+      <path d="M55 144h210"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M60 52h200M72 97h176M64 128h202" stroke-dasharray="3 4" stroke-opacity=".38"/>
+      <path d="M43 39v105M37 39h-8M37 144h-8M29 39v105" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M68 29h184" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M68 34v-10M252 34v-10"/>
+      <path d="M48 153h224" stroke-dasharray="2 5" stroke-opacity=".42"/>
+      <path d="M48 160h224" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M48 154v12M272 154v12"/>
+      <path d="M98 83v61M208 83v61" stroke-dasharray="1 5" stroke-opacity=".42"/>
+    </g>
+    <g stroke-width="1.4">
+      <g transform="translate(116 65)">
+        <circle cx="0" cy="-9" r="3" fill="#0d5e78" fill-opacity=".16"/>
+        <path d="M0-6v11M-6-2 0 1l6-3M-4 12 0 5l4 7M-5 0l-5 5M5 0l5 5"/>
+      </g>
+      <g transform="translate(207 112)">
+        <circle cx="0" cy="-8" r="3" fill="#0d5e78" fill-opacity=".16"/>
+        <path d="M0-5v10M-6-1 0 2l6-3M-4 11 0 5l4 6M-5 1l-5 4M5 1l5 4"/>
+      </g>
+      <g transform="translate(76 139)">
+        <circle cx="0" cy="-7" r="2.8" fill="#0d5e78" fill-opacity=".16"/>
+        <path d="M0-4v9M-5 0 0 2l5-2M-3 10 0 5l3 5M-4 2l-4 3M4 2l4 3"/>
+      </g>
+    </g>
+  </g>
+</svg>

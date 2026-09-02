@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Tvärsektion av tankfartyg</title>
+  <desc id="desc">En tanksektion med dubbla skrov, tankindelning och tre yttre nedåtriktade tryckpilar.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+    <marker id="down-arrow" viewBox="0 0 8 8" refX="4" refY="7" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 8 0 4 8z" fill="#0d5e78" fill-opacity=".8"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M47 48q113-26 226 0v63q-8 31-48 44H95q-40-13-48-44z"/>
+      <path d="M61 57q99-19 198 0v51q-8 25-39 34H100q-31-9-39-34z"/>
+      <path d="M74 66q86-14 172 0v40q-8 17-29 23H103q-21-6-29-23z" stroke-opacity=".66"/>
+      <path d="M108 62v65M160 60v72M212 62v65"/>
+      <path d="M97 145h126M84 151h152"/>
+      <path d="M160 48v84" stroke-dasharray="3 4" stroke-opacity=".55"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M95 70h30M195 70h30M95 101h30M195 101h30" stroke-dasharray="2 4" stroke-opacity=".46"/>
+      <path d="M47 38v-15M273 38v-15M47 27h226" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M47 31v-10M273 31v-10"/>
+      <path d="M35 48v63M29 48h-8M29 111h-8M21 48v63" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M52 119q108 33 216 0" stroke-dasharray="3 5" stroke-opacity=".42"/>
+      <path d="M62 160h196" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M62 154v12M258 154v12"/>
+      <path d="M109 136h102M109 141h102" stroke-opacity=".52"/>
+      <circle cx="108" cy="62" r="3"/><circle cx="160" cy="60" r="3"/><circle cx="212" cy="62" r="3"/>
+      <path d="M88 35h31M201 35h31" stroke-dasharray="1 4" stroke-opacity=".5"/>
+    </g>
+    <g stroke-width="1.35" stroke-opacity=".84">
+      <path d="M96 10v25" marker-end="url(#down-arrow)"/>
+      <path d="M160 10v25" marker-end="url(#down-arrow)"/>
+      <path d="M224 10v25" marker-end="url(#down-arrow)"/>
+      <path d="M90 15h12M154 15h12M218 15h12" stroke-opacity=".46"/>
+    </g>
+  </g>
+</svg>

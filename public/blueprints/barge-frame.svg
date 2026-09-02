@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Pråm med arbetsställning</title>
+  <desc id="desc">Ett tvärsnitt av en pråm med träställning, vattenlinje och förtöjningslina.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M62 105h196l-15 35H77z"/>
+      <path d="M70 117h181M76 130h170"/>
+      <path d="M91 105 108 47M229 105 212 47M108 47h104"/>
+      <path d="M108 47v58M131 47v58M154 47v58M177 47v58M200 47v58" stroke-opacity=".64"/>
+      <path d="m108 47 23 58 23-58 23 58 23-58"/>
+      <path d="M83 140h154"/>
+      <path d="M31 152q41-9 82 0t82 0 82 0"/>
+      <path d="M258 105q18 9 39 31"/>
+    </g>
+    <g stroke-width="1.2">
+      <path d="M25 152h270" stroke-dasharray="4 4" stroke-opacity=".52"/>
+      <path d="M35 160q40-8 80 0t80 0 80 0" stroke-dasharray="2 5" stroke-opacity=".46"/>
+      <path d="M63 97h195" stroke-dasharray="3 4" stroke-opacity=".42"/>
+      <path d="M77 146h170M77 141v10M247 141v10" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M52 105v35M46 105h-8M46 140h-8M38 105v35" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M91 38h138" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M91 43v-10M229 43v-10"/>
+      <circle cx="91" cy="105" r="3"/><circle cx="229" cy="105" r="3"/>
+      <path d="M258 105h13M297 136h-8M271 119l-5 5M283 130l-5 5"/>
+      <path d="M292 136q-6 0-8 6" stroke-dasharray="1 4"/>
+      <path d="M115 154v9M205 154v9" stroke-opacity=".42"/>
+    </g>
+  </g>
+</svg>

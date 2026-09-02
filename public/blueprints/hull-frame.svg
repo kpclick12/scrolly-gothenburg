@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Skrovsektion med spant</title>
+  <desc id="desc">En teknisk genomskärning av ett fartygsskrov med spant och köl.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M44 33 71 58 87 115l-22 31M276 33l-27 25-16 57 22 31"/>
+      <path d="M71 58q89 26 178 0M87 115q73 18 146 0M65 146q95 18 190 0"/>
+      <path d="M160 34v130M78 67l-12 74M106 64l-5 78M134 62l-2 81M186 62l2 81M214 64l5 78M242 67l12 74" stroke-opacity=".7"/>
+      <path d="M43 33q117-26 234 0M65 146q95 20 190 0" stroke-width="3"/>
+    </g>
+    <g stroke-width="1.15">
+      <path d="M53 43q107-23 214 0M72 58q88 25 176 0M88 115q72 17 144 0" stroke-dasharray="4 4" stroke-opacity=".5"/>
+      <path d="M83 76 68 88M103 72 91 85M126 69l-9 14M194 69l9 14M217 72l12 13M237 76l15 12"/>
+      <circle cx="70" cy="58" r="2"/><circle cx="250" cy="58" r="2"/>
+      <circle cx="87" cy="115" r="2"/><circle cx="233" cy="115" r="2"/>
+      <path d="M41 164h238" stroke-dasharray="2 5" stroke-opacity=".45"/>
+      <path d="M53 35v-13M267 35v-13M53 25h214" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M53 29v-8M267 29v-8"/>
+      <path d="M29 34v112M36 34h-9M36 146h-9M29 34v112" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M29 88h9M152 35v129M157 47h6M157 95h6M157 144h6" stroke-opacity=".58"/>
+      <path d="M155 34v130" stroke-dasharray="1 6" stroke-opacity=".45"/>
+    </g>
+  </g>
+</svg>

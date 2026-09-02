@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Bockkran i teknisk linjeteckning</title>
+  <desc id="desc">En stiliserad bockkran med portalben, traversbalk, vagn och lyftblock.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#0d5e78" stroke-width="1"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#0d5e78" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+    <g stroke-width="2">
+      <path d="M54 145 80 35h18l-12 110M266 145 240 35h-18l12 110"/>
+      <path d="M70 69h180M65 84h190M62 99h196"/>
+      <path d="M82 35h156M80 35l-14 40M238 35l14 40"/>
+      <path d="M46 145h48M226 145h48M45 152h51M224 152h51"/>
+      <path d="M82 35 69 145M238 35l13 110" stroke-opacity=".5"/>
+      <path d="M61 106h198M74 69 246 145M246 69 74 145" stroke-opacity=".42"/>
+    </g>
+    <g stroke-width="1.25">
+      <path d="M81 42h157M77 53h166M74 64h172" stroke-dasharray="5 4" stroke-opacity=".55"/>
+      <path d="M96 35v110M224 35v110" stroke-opacity=".35"/>
+      <circle cx="88" cy="45" r="2"/><circle cx="232" cy="45" r="2"/>
+      <circle cx="72" cy="139" r="2"/><circle cx="248" cy="139" r="2"/>
+      <rect x="139" y="48" width="42" height="13"/>
+      <path d="M145 61v39M175 61v39M139 100h42"/>
+      <circle cx="145" cy="54" r="3"/><circle cx="175" cy="54" r="3"/>
+      <path d="M152 100v28M168 100v28"/>
+      <path d="M150 128h20l-3 8h-14z"/>
+      <path d="M155 136v9q0 7 7 7t7-7v-5"/>
+      <path d="M39 160h242" stroke-dasharray="2 5" stroke-opacity=".48"/>
+      <path d="M39 145v20M281 145v20M39 166h242" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M38 35V152M45 35h-9M45 152h-9"/>
+      <path d="M32 35v117" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M88 26h144" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M88 30v-8M232 30v-8"/>
+      <path d="M85 25h6M229 25h6M156 17v8" stroke-opacity=".65"/>
+    </g>
+  </g>
+</svg>

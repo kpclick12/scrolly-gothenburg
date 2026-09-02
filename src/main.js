@@ -1,6 +1,11 @@
+import initHero3D from "./hero-3d.js";
+
 const stage = document.querySelector(".story-stage");
 const steps = [...document.querySelectorAll(".story-step")];
 const photos = [...document.querySelectorAll(".stage-photo")];
+const hero = document.querySelector(".hero");
+const heroPhoto = document.querySelector(".hero-photo");
+const hero3DHost = document.querySelector("[data-hero-3d]");
 const progressBar = document.querySelector(".reading-progress span");
 const stageYear = document.querySelector(".stage-year");
 const stagePlace = document.querySelector(".stage-place");
@@ -8,10 +13,26 @@ const stageCount = document.querySelector(".stage-counter b");
 const captionText = document.querySelector(".caption-text");
 const captionSource = document.querySelector(".caption-source");
 const sceneAnnouncement = document.querySelector("#scene-announcement");
+const workFocusIndex = document.querySelector(".work-focus-index");
+const workFocusTitle = document.querySelector(".work-focus-title");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 let activeIndex = -1;
 let framePending = false;
+let hero3D = null;
+
+if (hero && heroPhoto && hero3DHost) {
+  try {
+    hero3D = initHero3D(hero3DHost, {
+      fallback: heroPhoto,
+      interactionTarget: hero,
+      onReady: () => hero.classList.add("has-3d"),
+      onWebGLFailure: () => hero.classList.remove("has-3d"),
+    });
+  } catch {
+    hero.classList.remove("has-3d");
+  }
+}
 
 function setScene(index) {
   if (!stage || index === activeIndex || !steps[index]) return;
@@ -27,6 +48,12 @@ function setScene(index) {
   stageCount.textContent = step.dataset.count;
   captionText.textContent = step.dataset.caption;
   captionSource.textContent = step.dataset.credit;
+  if (workFocusIndex && step.dataset.focusIndex) {
+    workFocusIndex.textContent = step.dataset.focusIndex;
+  }
+  if (workFocusTitle && step.dataset.focusTitle) {
+    workFocusTitle.textContent = step.dataset.focusTitle;
+  }
   if (sceneAnnouncement) {
     sceneAnnouncement.textContent = `Aktuell bild: ${step.dataset.alt}`;
   }
@@ -45,7 +72,7 @@ function update() {
   framePending = false;
 
   if (steps.length) {
-    const targetLine = window.innerWidth <= 980 ? window.innerHeight * 0.66 : window.innerHeight * 0.52;
+    const targetLine = window.innerWidth <= 980 ? window.innerHeight * 0.44 : window.innerHeight * 0.52;
     let closestIndex = 0;
     let closestDistance = Number.POSITIVE_INFINITY;
 
@@ -69,8 +96,6 @@ function update() {
   }
 
   if (!reducedMotion.matches) {
-    const hero = document.querySelector(".hero");
-    const heroPhoto = document.querySelector(".hero-photo");
     if (hero && heroPhoto) {
       const heroBottom = hero.getBoundingClientRect().bottom;
       if (heroBottom > 0) {
@@ -92,6 +117,9 @@ window.addEventListener("scroll", requestUpdate, { passive: true });
 window.addEventListener("resize", requestUpdate);
 window.addEventListener("load", requestUpdate, { once: true });
 reducedMotion.addEventListener?.("change", requestUpdate);
+window.addEventListener("pagehide", (event) => {
+  if (!event.persisted) hero3D?.dispose();
+});
 
 setScene(0);
 requestUpdate();
